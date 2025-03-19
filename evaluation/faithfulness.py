@@ -3,8 +3,8 @@ import torch.nn as nn
 import pandas as pd
 from transformers import AutoModel, AutoTokenizer
 from torch.utils.data import DataLoader, Dataset
-from ..model.bert import BERT
-from ..model.bertlm import BERTLM
+from ..model import BERT
+from ..model import BERTLM
 
 # Load the checkpoint
 model_name = "NSP_8layers"
