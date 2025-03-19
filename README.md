@@ -48,7 +48,7 @@ This repository provides a PyTorch implementation of the BERT model for language
 To train the BERT model:
 
 ```bash
-python -m vi --language "vi" --dataset "nsp" --max_length 256 --n_layers 8 --num_heads 8 --embed_dim 512 --lr 1e-4 --batch_size 128 --ff_dropout 0 --id 0 --special "adam_wd_lrd" --output_dir "/scratch/xtong"
+python -m vi --language "vi" --dataset "nsp" --max_length 256 --n_layers 8 --num_heads 8 --embed_dim 512 --lr 1e-4 --batch_size 128 --ff_dropout 0 --id 0 --special "adam_wd_lrd" --output_dir ""
 ```
 
 Adjust parameters (`epochs`, `batch_size`, `lr`, etc.) as needed.
@@ -63,7 +63,6 @@ wandb login
 ```
 
 ## Acknowledgements
-
 This codebase references and adapts from:
-- [Transformer MLM by rishub-tamirisa](https://github.com/rishub-tamirisa/transformer-mlm)
+- [transformer-mlm](https://github.com/rishub-tamirisa/transformer-mlm)
 - [BERT-pytorch](https://github.com/codertimo/BERT-pytorch)
