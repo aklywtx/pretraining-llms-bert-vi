@@ -1,0 +1,91 @@
+Sentence,Correct,Incorrect
+Một tổ chức gây quỹ được gọi là <MASK>.,tổ chức từ thiện,nhà vật lý
+Một tổ chức mà những người vô thần từ chối được gọi là <MASK>.,tôn giáo,tổ chức từ thiện
+Một người phạm tội giết người được gọi là <MASK>.,kẻ giết người,tôn giáo
+Một người thoát khỏi một vụ đắm tàu được gọi là <MASK>.,người sống sót,kẻ giết người
+Một tòa nhà chiếu phim được gọi là <MASK>.,rạp chiếu phim,người sống sót
+Một tòa nhà chứa kính viễn vọng được gọi là <MASK>.,đài quan sát,rạp chiếu phim
+Một thiết bị mà những người đốn gỗ sử dụng được gọi là <MASK>.,cưa,đài quan sát
+Một thiết bị lưu thông không khí được gọi là <MASK>.,quạt,cưa
+Một tài liệu mà người nộp đơn hoàn thành được gọi là <MASK>.,biểu mẫu,quạt
+Một tài liệu mà người thuê nhà ký được gọi là <MASK>.,hợp đồng thuê,biểu mẫu
+Một phẩm chất mà một loài chia sẻ được gọi là <MASK>.,đặc điểm,hợp đồng thuê
+Một phẩm chất mà một chiếc cân đo được gọi là <MASK>.,trọng lượng,đặc điểm
+Một vật liệu mà một mỏ đá sản xuất được gọi là <MASK>.,khoáng sản,trọng lượng
+Một vật liệu tạo thành gạch được gọi là <MASK>.,đất sét,khoáng sản
+Một vật liệu mà nước xói mòn được gọi là <MASK>.,đá,đất sét
+Một căn phòng có bếp được gọi là <MASK>.,bếp,đá
+Một căn phòng mà học sinh bước vào được gọi là <MASK>.,lớp học,bếp
+Một hoạt động mà bảo tàng tổ chức được gọi là <MASK>.,triển lãm,lớp học
+Một hoạt động mà thủy lợi cho phép được gọi là <MASK>.,nông nghiệp,triển lãm
+Một hoạt động mà một trò đùa gợi lên được gọi là <MASK>.,tiếng cười,nông nghiệp
+Một loài động vật có vú có cánh được gọi là <MASK>.,dơi,tiếng cười
+Một loài động vật có vú cung cấp sữa được gọi là <MASK>.,bò,dơi
+Một người phụ nữ bán thân được gọi là <MASK>.,gái mại dâm,bò
+Một người phụ nữ có chồng được gọi là <MASK>.,vợ,gái mại dâm
+Một phương tiện do một nhà sản xuất ô tô sản xuất được gọi là <MASK>.,ô tô,vợ
+Một phương tiện vượt biển được gọi là <MASK>.,tàu,ô tô
+Một hiện tượng nhấn chìm đất liền được gọi là <MASK>.,lũ lụt,tàu
+Một nhà khí tượng học dự báo một hiện tượng được gọi là <MASK>.,thời tiết,lũ lụt
+Một nhà khoa học nghiên cứu các con số được gọi là <MASK>.,nhà toán học,thời tiết
+Một nhà khoa học tính toán động lượng được gọi là <MASK>.,nhà vật lý,nhà toán học
+Một tổ chức gây quỹ được gọi là <MASK>.,tổ chức từ thiện,vợ
+Một tổ chức mà những người vô thần từ chối được gọi là <MASK>.,tôn giáo,ô tô
+Một người phạm tội giết người được gọi là <MASK>.,kẻ giết người,tàu
+Một người thoát khỏi một vụ đắm tàu được gọi là <MASK>.,người sống sót,lũ lụt
+Một tòa nhà chiếu phim được gọi là <MASK>.,rạp chiếu phim,thời tiết
+Một tòa nhà chứa kính viễn vọng được gọi là <MASK>.,đài quan sát,nhà toán học
+Một thiết bị mà những người đốn gỗ sử dụng được gọi là <MASK>.,cưa,nhà vật lý
+Một thiết bị lưu thông không khí được gọi là <MASK>.,quạt,tổ chức từ thiện
+Một tài liệu mà người nộp đơn hoàn thành được gọi là <MASK>.,biểu mẫu,tôn giáo
+Một tài liệu mà người thuê nhà ký được gọi là <MASK>.,hợp đồng thuê,kẻ giết người
+Một phẩm chất mà một loài chia sẻ được gọi là <MASK>.,đặc điểm,người sống sót
+Một phẩm chất mà một chiếc cân đo được gọi là <MASK>.,trọng lượng,rạp chiếu phim
+Một vật liệu mà một mỏ đá sản xuất được gọi là <MASK>.,khoáng sản,đài quan sát
+Một vật liệu tạo thành gạch được gọi là <MASK>.,đất sét,cưa
+Một vật liệu mà nước xói mòn được gọi là <MASK>.,đá,quạt
+Một căn phòng có bếp được gọi là <MASK>.,bếp,biểu mẫu
+Một căn phòng mà học sinh bước vào được gọi là <MASK>.,lớp học,hợp đồng thuê
+Một hoạt động mà bảo tàng tổ chức được gọi là <MASK>.,triển lãm,đặc điểm
+Một hoạt động mà thủy lợi cho phép được gọi là <MASK>.,nông nghiệp,trọng lượng
+Một hoạt động mà một trò đùa gợi lên được gọi là <MASK>.,tiếng cười,khoáng sản
+Một loài động vật có vú có cánh được gọi là <MASK>.,dơi,đất sét
+Một loài động vật có vú cung cấp sữa được gọi là <MASK>.,bò,đá
+Một người phụ nữ bán thân được gọi là <MASK>.,gái mại dâm,bếp
+Một người phụ nữ có chồng được gọi là <MASK>.,vợ,lớp học
+Một phương tiện do một nhà sản xuất ô tô sản xuất được gọi là <MASK>.,ô tô,triển lãm
+Một phương tiện vượt biển được gọi là <MASK>.,tàu,nông nghiệp
+Một hiện tượng nhấn chìm đất liền được gọi là <MASK>.,lũ lụt,tiếng cười
+Một nhà khí tượng học dự báo một hiện tượng được gọi là <MASK>.,thời tiết,dơi
+Một nhà khoa học nghiên cứu các con số được gọi là <MASK>.,nhà toán học,bò
+Một nhà khoa học tính toán động lượng được gọi là <MASK>.,nhà vật lý,gái mại dâm
+Một tổ chức gây quỹ được gọi là <MASK>.,tổ chức từ thiện,cưa
+Một tổ chức mà những người vô thần từ chối được gọi là <MASK>.,tôn giáo,quạt
+Một người phạm tội giết người được gọi là <MASK>.,kẻ giết người,biểu mẫu
+Một người thoát khỏi một vụ đắm tàu được gọi là <MASK>.,người sống sót,hợp đồng thuê
+Một tòa nhà chiếu phim được gọi là <MASK>.,rạp chiếu phim,đặc điểm
+Một tòa nhà chứa kính viễn vọng được gọi là <MASK>.,đài quan sát,trọng lượng
+Một thiết bị mà những người đốn gỗ sử dụng được gọi là <MASK>.,cưa,khoáng sản
+Một thiết bị lưu thông không khí được gọi là <MASK>.,quạt,đất sét
+Một tài liệu mà người nộp đơn hoàn thành được gọi là <MASK>.,biểu mẫu,đá
+Một tài liệu mà người thuê nhà ký được gọi là <MASK>.,hợp đồng thuê,bếp
+Một phẩm chất mà một loài chia sẻ được gọi là <MASK>.,đặc điểm,lớp học
+Một phẩm chất mà một chiếc cân đo được gọi là <MASK>.,trọng lượng,triển lãm
+Một vật liệu mà một mỏ đá sản xuất được gọi là <MASK>.,khoáng sản,nông nghiệp
+Một vật liệu tạo thành gạch được gọi là <MASK>.,đất sét,tiếng cười
+Một vật liệu mà nước xói mòn được gọi là <MASK>.,đá,dơi
+Một căn phòng có bếp được gọi là <MASK>.,bếp,bò
+Một căn phòng mà học sinh bước vào được gọi là <MASK>.,lớp học,gái mại dâm
+Một hoạt động mà bảo tàng tổ chức được gọi là <MASK>.,triển lãm,vợ
+Một hoạt động mà thủy lợi cho phép được gọi là <MASK>.,nông nghiệp,ô tô
+Một hoạt động mà một trò đùa gợi lên được gọi là <MASK>.,tiếng cười,tàu
+Một loài động vật có vú có cánh được gọi là <MASK>.,dơi,lũ lụt
+Một loài động vật có vú cung cấp sữa được gọi là <MASK>.,bò,thời tiết
+Một người phụ nữ bán thân được gọi là <MASK>.,gái mại dâm,nhà toán học
+Một người phụ nữ có chồng được gọi là <MASK>.,vợ,nhà vật lý
+Một phương tiện do một nhà sản xuất ô tô sản xuất được gọi là <MASK>.,ô tô,tổ chức từ thiện
+Một phương tiện vượt biển được gọi là <MASK>.,tàu,tôn giáo
+Một hiện tượng nhấn chìm đất liền được gọi là <MASK>.,lũ lụt,kẻ giết người
+Một nhà khí tượng học dự báo một hiện tượng được gọi là <MASK>.,thời tiết,người sống sót
+Một nhà khoa học nghiên cứu các con số được gọi là <MASK>.,nhà toán học,rạp chiếu phim
+Một nhà khoa học tính toán động lượng được gọi là <MASK>.,nhà vật lý,đài quan sát
