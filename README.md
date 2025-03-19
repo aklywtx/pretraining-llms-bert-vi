@@ -5,9 +5,10 @@
 This repository provides a PyTorch implementation of the BERT model for language modeling tasks, specifically Masked Language Modeling (MLM) and Sentence Order Prediction (SOP)/Next Sentence Prediction (NSP).
 
 
-## Structure
+## Repository Structure
 
 ```
+.
 ├── __main__.py
 ├── attention
 │   ├── __init__.py
@@ -21,23 +22,34 @@ This repository provides a PyTorch implementation of the BERT model for language
 │   ├── position.py
 │   ├── segment.py
 │   └── token.py
-├── evaluation
-│   ├── __init__.py
-│   ├── entailment.py
-│   ├── faithfulness.py
-│   ├── real_world_knowledge.py
-│   └── winograd.py
 ├── model
 │   ├── __init__.py
 │   ├── bert.py
 │   ├── bertlm.py
 │   └── transformer.py
-└── trainer
-    ├── __init__.py
-    └── pretrain.py
+├── trainer
+│   ├── __init__.py
+│   └── pretrain.py
+└── evaluation
+    ├── __init__.py
+    ├── entailment.py
+    ├── faithfulness.py
+    ├── real_world_knowledge.py
+    ├── winograd.py
+    └── evaluation_data
+        ├── Winograd.csv
+        ├── entailment.csv
+        ├── faithfulness.csv
+        └── repron_vn_binary.csv
 ```
 
+## Dataset
+
+The Vietnamese SOP and NSP datasets for training the model are created using the `dataset_creation.py` script.
+
+
 ## Requirements
+
 - Python 3.9+
 - torch
 - torch_optimizer
