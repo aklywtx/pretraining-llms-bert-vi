@@ -21,6 +21,12 @@ This repository provides a PyTorch implementation of the BERT model for language
 │   ├── position.py
 │   ├── segment.py
 │   └── token.py
+├── evaluation
+│   ├── __init__.py
+│   ├── entailment.py
+│   ├── faithfulness.py
+│   ├── real_world_knowledge.py
+│   └── winograd.py
 ├── model
 │   ├── __init__.py
 │   ├── bert.py
