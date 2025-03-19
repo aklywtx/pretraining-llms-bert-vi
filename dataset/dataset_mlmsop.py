@@ -162,7 +162,7 @@ def create_dataloader(huggingface_path, batch_size=64, max_length=256):
         DataLoader: Configured DataLoader instance.
     """
 
-    dataset = load_dataset(huggingface_path, split="train", cache_dir="/scratch/xtong/cache")
+    dataset = load_dataset(huggingface_path, split="train")
     tokenizer = AutoTokenizer.from_pretrained("vinai/PhoGPT-4B-Chat")
     tokenizer.add_special_tokens({'mask_token': '<MASK>'})
     # dataset = dataset.select(range(100000))

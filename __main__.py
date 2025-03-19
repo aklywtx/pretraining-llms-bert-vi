@@ -11,18 +11,18 @@ parser.add_argument("--max_length", choices=[128, 256, 384, 512], type=int, help
 parser.add_argument("--embed_dim", choices=[384, 512, 768], type=int, help="Embedding dimension.")
 parser.add_argument("--n_layers", type=int, help="Number of transformer layers.")
 parser.add_argument("--num_heads", type=int, help="Number of attention heads.")
-parser.add_argument("--lr", type=float, help="Learning rate for the optimizer.")
+parser.add_argument("--lr", type=float, default=1e-4, help="Learning rate for optimizer.")
 parser.add_argument("--batch_size", choices=[16, 32, 64, 128, 256, 512, 1024], type=int, help="Batch size for training.")
-parser.add_argument("--output_dir", type=str, help="Directory path to save model checkpoints.")
 parser.add_argument("--ff_dropout", type=float, default=0.0, help="Dropout rate for feed-forward layers.")
+parser.add_argument("--id", type=int, help="ID for this training run")
+parser.add_argument("--output_dir", type=str, help="Output directory for checkpoints")
 parser.add_argument(
     "--special",
     type=str,
+    dest="special_condition",
     choices=["adam", "adamw_wd", "adam_lrd", "adam_wd_lrd", "adamw_wd_lrd"],
     help="Optimizer type: adam | adamw_wd | adam_lrd | adam_wd_lrd | adamw_wd_lrd (wd=weight decay, lrd=learning rate decay)."
 )
-parser.add_argument("--lr", type=float, default=1e-4, help="Learning rate for optimizer.")
-parser.add_argument("--batch_size", type=int, default=64, help="Batch size for DataLoader.")
 
 args = parser.parse_args()
 
