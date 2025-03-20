@@ -92,7 +92,23 @@ python -m pretraining-llms-bert-vi --language "vi" --dataset "nsp" --max_length 
 
 Adjust parameters (`epochs`, `batch_size`, `lr`, etc.) as needed.
 
-
+### Evaluation
+Winograd Schema Challenge
+```bash
+python evaluation/winograd.py
+```
+Faithfulness detection
+```bash
+python evaluation/faithfulness.py
+```
+Real-world knowledge
+```bash
+python evaluation/entailment.py
+```
+Textual entailment
+```bash
+python evaluation/real_world_knowledge.py
+```
 ## Logging and Monitoring
 
 Training progress and metrics are logged using [Weights & Biases (wandb)](https://wandb.ai/site). Ensure you have wandb set up properly:
