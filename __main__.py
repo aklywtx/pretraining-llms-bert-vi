@@ -2,6 +2,9 @@ from .dataset import create_dataloader
 from .model import BERT
 from .trainer import BERTTrainer
 import argparse
+import torch
+import numpy as np
+import random
 
 parser = argparse.ArgumentParser(description="Arguments for training the BERT model.")
 
@@ -23,19 +26,25 @@ parser.add_argument(
     choices=["adam", "adamw_wd", "adam_lrd", "adam_wd_lrd", "adamw_wd_lrd"],
     help="Optimizer type: adam | adamw_wd | adam_lrd | adam_wd_lrd | adamw_wd_lrd (wd=weight decay, lrd=learning rate decay)."
 )
+parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility.")
 
 args = parser.parse_args()
-
 print(args)
 
+def set_seed(seed):
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
 
 def train():
-    print("Creating Dataloader")   
+    print(f"Setting seed to {args.seed}")
+    set_seed(args.seed)
     
+    print("Creating Dataloader")   
     huggingface_path = f"WendyHoang/corpus_test_{args.dataset}"
     dataloader, tokenizer = create_dataloader(huggingface_path=huggingface_path, batch_size=args.batch_size, max_length=args.max_length)
     print("dataloader:", dataloader)
-    
     
     print("Building BERT model")
     model_config = {
@@ -66,6 +75,7 @@ def train():
                           batch_size=args.batch_size,
                           special_condition=args.special_condition
                           )
+    
     print("Training Start")
     trainer.train()
     
