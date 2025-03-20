@@ -101,11 +101,11 @@ Faithfulness detection
 ```bash
 python evaluation/faithfulness.py
 ```
-Real-world knowledge
+Textual entailment
 ```bash
 python evaluation/entailment.py
 ```
-Textual entailment
+Real-world knowledge
 ```bash
 python evaluation/real_world_knowledge.py
 ```
