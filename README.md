@@ -58,6 +58,28 @@ The Vietnamese SOP and NSP datasets for training the model are created using the
 - tqdm
 - wandb
 
+## Evaluation Pipelines
+
+### Winograd Schema Challenge
+
+- Processes the input sequence and generates output probabilities for each token position.
+- At the masked token position, the model applies a softmax layer to produce a probability distribution over the entire vocabulary.
+- Compares the probabilities of the correct and incorrect tokens.
+- The token with the higher probability is selected as the model’s predicted choice.
+
+### Faithfulness and Entailment
+
+- Extracts the [CLS] token embeddings for the input, incorrect sentence, and correct sentence.
+- Computes the cosine similarity between the input and both the incorrect and correct sentences.
+- Selects the sentence with the higher similarity score.
+
+### Real world knowledge
+
+- Follows a similar approach to the Winograd Schema Challenge, but the correct and incorrect choices are spans of tokens rather than single tokens.
+- Computes the probability of each span as the mean probability of the tokens within it.
+- The span with the higher mean probability is chosen as the model’s predicted output.
+
+
 ## Usage
 
 ### Training
@@ -69,6 +91,7 @@ python -m pretraining-llms-bert-vi --language "vi" --dataset "nsp" --max_length 
 ```
 
 Adjust parameters (`epochs`, `batch_size`, `lr`, etc.) as needed.
+
 
 ## Logging and Monitoring
 
