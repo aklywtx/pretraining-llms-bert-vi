@@ -109,10 +109,10 @@ for batch in eval_dataloader:
         _, mlm_logits_1, _ = model(batch['input_ids_1'], batch['token_type_ids_1'], batch['attention_mask_1'].unsqueeze(1))
         _, mlm_logits_2, _ = model(batch['input_ids_2'], batch['token_type_ids_2'], batch['attention_mask_2'].unsqueeze(1))
 
-    sub_token_precisions_1 = [torch.log_softmax(mlm_logits_1[0, idx, :], dim=-1)[batch['correct_token_ids'][idx]].item() for idx in (batch['input_ids_1'][0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]]
-    sub_token_precisions_2 = [torch.log_softmax(mlm_logits_2[0, idx, :], dim=-1)[batch['incorrect_token_ids'][idx]].item() for idx in (batch['input_ids_2'][0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]]
+    sub_token_prob_1 = [torch.log_softmax(mlm_logits_1[0, idx, :], dim=-1)[batch['correct_token_ids'][idx]].item() for idx in (batch['input_ids_1'][0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]]
+    sub_token_prob_2 = [torch.log_softmax(mlm_logits_2[0, idx, :], dim=-1)[batch['incorrect_token_ids'][idx]].item() for idx in (batch['input_ids_2'][0] == tokenizer.mask_token_id).nonzero(as_tuple=True)[0]]
 
-    score_1, score_2 = sum(sub_token_precisions_1) / len(sub_token_precisions_1), sum(sub_token_precisions_2) / len(sub_token_precisions_2)
+    score_1, score_2 = sum(sub_token_prob_1) / len(sub_token_prob_1), sum(sub_token_prob_2) / len(sub_token_prob_2)
     is_correct = score_1 > score_2
     correct_predictions += is_correct
 
