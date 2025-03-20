@@ -87,7 +87,19 @@ The Vietnamese SOP and NSP datasets for training the model are created using the
 To train the BERT model:
 
 ```bash
-python -m pretraining-llms-bert-vi --language "vi" --dataset "nsp" --max_length 256 --n_layers 8 --num_heads 8 --embed_dim 512 --lr 1e-4 --batch_size 128 --ff_dropout 0 --id 0 --special "adam_wd_lrd" --output_dir ""
+python -m pretraining-llms-bert-vi \
+  --language "vi" \
+  --dataset "nsp" \
+  --max_length 256 \
+  --n_layers 8 \
+  --num_heads 8 \
+  --embed_dim 512 \
+  --lr 1e-4 \
+  --batch_size 128 \
+  --ff_dropout 0 \
+  --id 0 \
+  --special "adam_wd_lrd" \
+  --output_dir ""
 ```
 
 Adjust parameters (`epochs`, `batch_size`, `lr`, etc.) as needed.
@@ -117,6 +129,11 @@ Training progress and metrics are logged using [Weights & Biases (wandb)](https:
 pip install wandb
 wandb login
 ```
+
+## Setting random seed for reproducibility
+
+You can optionally specify the random seed using the `--seed` argument.
+If you omit this argument, the default seed (42) will be used.
 
 ## Acknowledgements
 This codebase references and adapts from:
