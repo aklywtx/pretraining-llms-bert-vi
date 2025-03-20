@@ -75,7 +75,7 @@ The Vietnamese SOP and NSP datasets for training the model are created using the
 
 ### Real-world knowledge
 
-- Follows a similar approach to the Winograd Schema Challenge, but the correct and incorrect choices are spans of tokens rather than single tokens.
+- Follows a similar approach to the **Winograd Schema Challenge**, but the correct and incorrect choices are spans of tokens rather than single tokens.
 - Computes the probability of each span as the mean probability of the tokens within it.
 - The span with the higher mean probability is chosen as the model’s predicted output.
 
