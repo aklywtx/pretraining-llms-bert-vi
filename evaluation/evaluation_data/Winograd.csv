@@ -1,37 +1,37 @@
-Sentence1,Sentence2,Correct,Incorrect,Indx,ViGLUE(train/validation/test)
-Jane gõ cửa phòng Susan nhưng cô ấy không trả lời.,<mask> không trả lời.,Susan,Jane,1,validation
-"Beth không tức giận với Sally, người đã ngắt lời cô, vì cô dừng lại và đếm đến mười.",<mask> dừng lại và đếm đến mười.,Beth,Sally,2,validation
-"Khi Tommy làm rơi cây kem, Timmy cười khúc khích nên bố nhìn cậu nghiêm nghị.",Cha nhìn <mask> một cách nghiêm khắc.,Timmy,Tommy,6,validation
-Madonna sa thải Lily vì cô ngủ với bạn trai.,<mask> ngủ với bạn trai.,Lily,Madonna,14,validation
-Bob ngã gục trên vỉa hè. Ngay sau đó anh thấy Carl đến giúp đỡ. Anh ấy bị bệnh nặng.,<mask> bị ốm nặng.,Bob,Carl,18,validation
-Jane đưa kẹo cho Joan vì cô ấy đói.,<mask> đói.,Joan,Jane,24,validation
-Mặc dù họ chạy với tốc độ như nhau nhưng Sue đã đánh bại Sally vì cô ấy xuất phát quá tốt.,<mask> đã có một khởi đầu tốt đẹp.,Sue,Sally,26,validation
-Fred là người duy nhất còn sống nhớ đến Tom. Anh ấy là một người đàn ông đáng chú ý.,<mask> là một người đàn ông đáng chú ý.,Fred,Tom,27,validation
-"Beth không tức giận với Sally, người đã ngắt lời cô, vì cô đã dừng lại và xin lỗi.",<mask> dừng lại và xin lỗi.,Sally,Beth,32,validation
-Sam học tiếng Pháp với Adam vì anh ấy nói tiếng Pháp rất trôi chảy.,<mask> được biết đến là người nói nó trôi chảy.,Adam,Sam,55,validation
-John không thể nhìn thấy sân khấu với Billy trước mặt vì anh ấy quá thấp.,<mask> quá ngắn.,John,Billy,1,train
-John không thể nhìn thấy sân khấu khi Billy ở phía trước anh ấy vì anh ấy quá cao,<MASK> rất cao,Billy,John,,
-Frank rất buồn với Tom vì chiếc máy nướng bánh mì,<MASK> mua không hoạt động,Frank,Tom,,
-Frank đã rất tức giận với Tom vì chiếc máy nướng bánh mì,<MASK> bán không hoạt động,Tom,Frank,,
-Steve noi gương Fred trong mọi việc. Anh ấy có ảnh hưởng rất lớn đến anh ấy.,<mask> có ảnh hưởng rất lớn đến anh ấy.,Fred,Steve,3,train
-"George nhận được vé xem vở kịch miễn phí, nhưng anh ấy đã đưa chúng cho Eric vì anh ấy đặc biệt háo hức muốn xem nó.",<mask> đặc biệt háo hức muốn xem nó.,Eric,George,5,train
-Jane gõ cửa phòng Susan nhưng không nhận được câu trả lời.,<mask> không nhận được câu trả lời.,Jane,Susan,20,train
-Bob đang chơi bài với Adam và đã dẫn trước. Nếu Adam không gặp may mắn đột ngột thì anh ấy đã thắng.,<mask> chắc chắn đã thắng.,Bob,Adam,21,train
-Paul đã cố gắng gọi điện cho George nhưng không thành công.,<mask> đã không thành công.,Paul,George,23,train
-Jane gõ cửa và Susan trả lời. Cô ấy mời cô ấy ra ngoài.,<mask> mời cô ấy ra ngoài.,Jane,Susan,30,train
-Jim an ủi Kevin vì anh ấy rất buồn.,<mask> rất khó chịu.,Kevin,Jim,39,train
-"Jackson bị ảnh hưởng rất nhiều bởi Arnold, mặc dù ông sống sớm hơn hai thế kỷ.",<mask> sống hai thế kỷ trước đó.,Arnold,Jackson,40,train
-Bill đưa chiếc đĩa còn một nửa cho John vì anh ấy đói.,<mask> đang đói.,John,Bill,44,train
-John hứa với Bill sẽ rời đi,vì vậy một giờ sau <MASK> đã rời đi.,John,Bill,,
-Fred xem TV trong khi George ra ngoài mua đồ tạp hóa. Sau một giờ anh quay lại.,<mask> đã quay lại.,George,Fred,51,train
-"Anna nói chuyện với Donna, phá vỡ sự tập trung của cô ấy.","Anna nói chuyện với Donna, phá vỡ sự tập trung của <mask>.",Donna,Anna,52,train
-Mặc dù họ chạy với tốc độ như nhau nhưng Sue đã đánh bại Sally vì cô ấy xuất phát quá tệ.,<mask> đã có một khởi đầu tồi tệ.,Sally,Sue,53,train
-Bob trả tiền học đại học cho Charlie. Anh ấy rất hào phóng.,<mask> rất hào phóng.,Bob,Charlie,70,train
-Billy khóc vì Toby không chịu nhận đồ chơi của mình.,Billy khóc vì Minh không chịu nhận đồ chơi của <mask>.,Billy,Toby,77,train
-"Khi Ollie bế Tommy lên những bậc thang dài quanh co, chân anh ấy đung đưa.",Đôi chân của <mask> đung đưa.,Tommy,Ollie,78,train
-Bill đưa chiếc đĩa còn một nửa cho John vì anh ấy đã no.,<mask> đã no.,Bill,John,87,train
-Những con cáo đang vào vào ban đêm và tấn công những con gà. Tôi sẽ phải giết chúng.,Tôi sẽ phải giết <MASK>.,cáo,gà,,
-"Joe vẫn có thể đánh bại Tim ở môn quần vợt, mặc dù anh ấy trẻ hơn Tim 30 tuổi.",<mask> trẻ hơn 30 tuổi.,Joe,Tim,88,train
-Emma không chuyền bóng cho Janie dù cô ấy sơ hở.,Cô thấy <mask> đã cởi mở.,Janie,Emma,89,train
-Bill chuyển gameboy cho John vì lượt của anh ấy đã hết.,Đến lượt của <mask> đã kết thúc.,Bill,John,90,train
-Emma không chuyền bóng cho Janie mặc dù cô ấy thấy cô ấy sơ hở.,<mask> thấy rằng cô ấy đã cởi mở.,Emma,Janie,98,train
+Sentence1,Sentence2,Correct,Incorrect
+Jane gõ cửa phòng Susan nhưng cô ấy không trả lời.,<mask> không trả lời.,Susan,Jane
+"Beth không tức giận với Sally, người đã ngắt lời cô, vì cô dừng lại và đếm đến mười.",<mask> dừng lại và đếm đến mười.,Beth,Sally
+"Khi Tommy làm rơi cây kem, Timmy cười khúc khích nên bố nhìn cậu nghiêm nghị.",Cha nhìn <mask> một cách nghiêm khắc.,Timmy,Tommy
+Madonna sa thải Lily vì cô ngủ với bạn trai.,<mask> ngủ với bạn trai.,Lily,Madonna
+Bob ngã gục trên vỉa hè. Ngay sau đó anh thấy Carl đến giúp đỡ. Anh ấy bị bệnh nặng.,<mask> bị ốm nặng.,Bob,Carl
+Jane đưa kẹo cho Joan vì cô ấy đói.,<mask> đói.,Joan,Jane
+Mặc dù họ chạy với tốc độ như nhau nhưng Sue đã đánh bại Sally vì cô ấy xuất phát quá tốt.,<mask> đã có một khởi đầu tốt đẹp.,Sue,Sally
+Fred là người duy nhất còn sống nhớ đến Tom. Anh ấy là một người đàn ông đáng chú ý.,<mask> là một người đàn ông đáng chú ý.,Fred,Tom
+"Beth không tức giận với Sally, người đã ngắt lời cô, vì cô đã dừng lại và xin lỗi.",<mask> dừng lại và xin lỗi.,Sally,Beth
+Sam học tiếng Pháp với Adam vì anh ấy nói tiếng Pháp rất trôi chảy.,<mask> được biết đến là người nói nó trôi chảy.,Adam,Sam
+John không thể nhìn thấy sân khấu với Billy trước mặt vì anh ấy quá thấp.,<mask> quá ngắn.,John,Billy
+John không thể nhìn thấy sân khấu khi Billy ở phía trước anh ấy vì anh ấy quá cao,<MASK> rất cao,Billy,John
+Frank rất buồn với Tom vì chiếc máy nướng bánh mì,<MASK> mua không hoạt động,Frank,Tom
+Frank đã rất tức giận với Tom vì chiếc máy nướng bánh mì,<MASK> bán không hoạt động,Tom,Frank
+Steve noi gương Fred trong mọi việc. Anh ấy có ảnh hưởng rất lớn đến anh ấy.,<mask> có ảnh hưởng rất lớn đến anh ấy.,Fred,Steve
+"George nhận được vé xem vở kịch miễn phí, nhưng anh ấy đã đưa chúng cho Eric vì anh ấy đặc biệt háo hức muốn xem nó.",<mask> đặc biệt háo hức muốn xem nó.,Eric,George
+Jane gõ cửa phòng Susan nhưng không nhận được câu trả lời.,<mask> không nhận được câu trả lời.,Jane,Susan
+Bob đang chơi bài với Adam và đã dẫn trước. Nếu Adam không gặp may mắn đột ngột thì anh ấy đã thắng.,<mask> chắc chắn đã thắng.,Bob,Adam
+Paul đã cố gắng gọi điện cho George nhưng không thành công.,<mask> đã không thành công.,Paul,George
+Jane gõ cửa và Susan trả lời. Cô ấy mời cô ấy ra ngoài.,<mask> mời cô ấy ra ngoài.,Jane,Susan
+Jim an ủi Kevin vì anh ấy rất buồn.,<mask> rất khó chịu.,Kevin,Jim
+"Jackson bị ảnh hưởng rất nhiều bởi Arnold, mặc dù ông sống sớm hơn hai thế kỷ.",<mask> sống hai thế kỷ trước đó.,Arnold,Jackson
+Bill đưa chiếc đĩa còn một nửa cho John vì anh ấy đói.,<mask> đang đói.,John,Bill
+John hứa với Bill sẽ rời đi,vì vậy một giờ sau <MASK> đã rời đi.,John,Bill
+Fred xem TV trong khi George ra ngoài mua đồ tạp hóa. Sau một giờ anh quay lại.,<mask> đã quay lại.,George,Fred
+"Anna nói chuyện với Donna, phá vỡ sự tập trung của cô ấy.","Anna nói chuyện với Donna, phá vỡ sự tập trung của <mask>.",Donna,Anna
+Mặc dù họ chạy với tốc độ như nhau nhưng Sue đã đánh bại Sally vì cô ấy xuất phát quá tệ.,<mask> đã có một khởi đầu tồi tệ.,Sally,Sue
+Bob trả tiền học đại học cho Charlie. Anh ấy rất hào phóng.,<mask> rất hào phóng.,Bob,Charlie
+Billy khóc vì Toby không chịu nhận đồ chơi của mình.,Billy khóc vì Minh không chịu nhận đồ chơi của <mask>.,Billy,Toby
+"Khi Ollie bế Tommy lên những bậc thang dài quanh co, chân anh ấy đung đưa.",Đôi chân của <mask> đung đưa.,Tommy,Ollie
+Bill đưa chiếc đĩa còn một nửa cho John vì anh ấy đã no.,<mask> đã no.,Bill,John
+Những con cáo đang vào vào ban đêm và tấn công những con gà. Tôi sẽ phải giết chúng.,Tôi sẽ phải giết <MASK>.,cáo,gà
+"Joe vẫn có thể đánh bại Tim ở môn quần vợt, mặc dù anh ấy trẻ hơn Tim 30 tuổi.",<mask> trẻ hơn 30 tuổi.,Joe,Tim
+Emma không chuyền bóng cho Janie dù cô ấy sơ hở.,Cô thấy <mask> đã cởi mở.,Janie,Emma
+Bill chuyển gameboy cho John vì lượt của anh ấy đã hết.,Đến lượt của <mask> đã kết thúc.,Bill,John
+Emma không chuyền bóng cho Janie mặc dù cô ấy thấy cô ấy sơ hở.,<mask> thấy rằng cô ấy đã cởi mở.,Emma,Janie
