@@ -10,6 +10,9 @@ Fred là người duy nhất còn sống nhớ đến Tom. Anh ấy là một ng
 "Beth không tức giận với Sally, người đã ngắt lời cô, vì cô đã dừng lại và xin lỗi.",<mask> dừng lại và xin lỗi.,Sally,Beth,32,validation
 Sam học tiếng Pháp với Adam vì anh ấy nói tiếng Pháp rất trôi chảy.,<mask> được biết đến là người nói nó trôi chảy.,Adam,Sam,55,validation
 John không thể nhìn thấy sân khấu với Billy trước mặt vì anh ấy quá thấp.,<mask> quá ngắn.,John,Billy,1,train
+John không thể nhìn thấy sân khấu khi Billy ở phía trước anh ấy vì anh ấy quá cao,<MASK> rất cao,Billy,John,,
+Frank rất buồn với Tom vì chiếc máy nướng bánh mì,<MASK> mua không hoạt động,Frank,Tom,,
+Frank đã rất tức giận với Tom vì chiếc máy nướng bánh mì,<MASK> bán không hoạt động,Tom,Frank,,
 Steve noi gương Fred trong mọi việc. Anh ấy có ảnh hưởng rất lớn đến anh ấy.,<mask> có ảnh hưởng rất lớn đến anh ấy.,Fred,Steve,3,train
 "George nhận được vé xem vở kịch miễn phí, nhưng anh ấy đã đưa chúng cho Eric vì anh ấy đặc biệt háo hức muốn xem nó.",<mask> đặc biệt háo hức muốn xem nó.,Eric,George,5,train
 Jane gõ cửa phòng Susan nhưng không nhận được câu trả lời.,<mask> không nhận được câu trả lời.,Jane,Susan,20,train
@@ -18,19 +21,17 @@ Paul đã cố gắng gọi điện cho George nhưng không thành công.,<mask
 Jane gõ cửa và Susan trả lời. Cô ấy mời cô ấy ra ngoài.,<mask> mời cô ấy ra ngoài.,Jane,Susan,30,train
 Jim an ủi Kevin vì anh ấy rất buồn.,<mask> rất khó chịu.,Kevin,Jim,39,train
 "Jackson bị ảnh hưởng rất nhiều bởi Arnold, mặc dù ông sống sớm hơn hai thế kỷ.",<mask> sống hai thế kỷ trước đó.,Arnold,Jackson,40,train
-Sam và Amy yêu nhau say đắm nhưng bố mẹ Amy không hài lòng về điều đó vì họ là những kẻ hợm hĩnh.,Cha mẹ của <mask> là những kẻ hợm hĩnh.,Amy,Sam,43,train
 Bill đưa chiếc đĩa còn một nửa cho John vì anh ấy đói.,<mask> đang đói.,John,Bill,44,train
+John hứa với Bill sẽ rời đi,vì vậy một giờ sau <MASK> đã rời đi.,John,Bill,,
 Fred xem TV trong khi George ra ngoài mua đồ tạp hóa. Sau một giờ anh quay lại.,<mask> đã quay lại.,George,Fred,51,train
-"Lily nói chuyện với Donna, phá vỡ sự tập trung của cô ấy.","Minh nói chuyện với Donna, phá vỡ sự tập trung của <mask>.",Donna,Lily,52,train
+"Anna nói chuyện với Donna, phá vỡ sự tập trung của cô ấy.","Anna nói chuyện với Donna, phá vỡ sự tập trung của <mask>.",Donna,Anna,52,train
 Mặc dù họ chạy với tốc độ như nhau nhưng Sue đã đánh bại Sally vì cô ấy xuất phát quá tệ.,<mask> đã có một khởi đầu tồi tệ.,Sally,Sue,53,train
 Bob trả tiền học đại học cho Charlie. Anh ấy rất hào phóng.,<mask> rất hào phóng.,Bob,Charlie,70,train
-John hứa với Bill sẽ rời đi nên một giờ sau anh ấy rời đi.,<mask> đã rời đi.,John,Bill,71,train
 Billy khóc vì Toby không chịu nhận đồ chơi của mình.,Billy khóc vì Minh không chịu nhận đồ chơi của <mask>.,Billy,Toby,77,train
 "Khi Ollie bế Tommy lên những bậc thang dài quanh co, chân anh ấy đung đưa.",Đôi chân của <mask> đung đưa.,Tommy,Ollie,78,train
 Bill đưa chiếc đĩa còn một nửa cho John vì anh ấy đã no.,<mask> đã no.,Bill,John,87,train
-"Chú của Joe vẫn có thể đánh bại Tim ở môn quần vợt, mặc dù anh ấy trẻ hơn Tim 30 tuổi.",<mask> trẻ hơn 30 tuổi.,Joe,Tim,88,train
+Những con cáo đang vào vào ban đêm và tấn công những con gà. Tôi sẽ phải giết chúng.,Tôi sẽ phải giết <MASK>.,cáo,gà,,
+"Joe vẫn có thể đánh bại Tim ở môn quần vợt, mặc dù anh ấy trẻ hơn Tim 30 tuổi.",<mask> trẻ hơn 30 tuổi.,Joe,Tim,88,train
 Emma không chuyền bóng cho Janie dù cô ấy sơ hở.,Cô thấy <mask> đã cởi mở.,Janie,Emma,89,train
 Bill chuyển gameboy cho John vì lượt của anh ấy đã hết.,Đến lượt của <mask> đã kết thúc.,Bill,John,90,train
-Ann hỏi Mary thư viện đóng cửa lúc mấy giờ vì cô ấy đã quên mất.,<mask> đã quên mất.,Ann,Mary,91,train
-Bố mẹ Pam về nhà và phát hiện cô đang quan hệ tình dục với bạn trai Paul. Họ rất tức giận về điều đó.,Cha mẹ của <mask> rất tức giận về điều đó.,Pam,Paul,92,train
 Emma không chuyền bóng cho Janie mặc dù cô ấy thấy cô ấy sơ hở.,<mask> thấy rằng cô ấy đã cởi mở.,Emma,Janie,98,train
