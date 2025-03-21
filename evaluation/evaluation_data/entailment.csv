@@ -1,31 +1,31 @@
-Context;Correct;Incorrect
-Bầu trời trong xanh vào sáng nay. Do đó,;sáng nay trời không mưa.;sáng nay trời mưa.
-Giao thông đông đúc suốt buổi sáng. Do đó,;đường xá rất ồn ào.;đường xá rất yên tĩnh.
-Anh ấy quên đặt báo thức cho cô ấy tối qua. Do đó,;cô ấy thức dậy muộn.;cô ấy thức dậy sớm.
-Cả hai đều không có chung ngôn ngữ. Do đó,;họ chỉ có thể giao tiếp bằng cử chỉ.;họ đã có một cuộc trò chuyện rất vui vẻ với nhau.
-Cơn bão đã gây ra lũ lụt trên diện rộng. Do đó,;nhiều con đường không thể đi qua được.;các con đường không bị ngập lụt.
-Cô ấy đã ăn một bữa ăn lớn ngay trước khi đi ngủ đêm qua. Do đó,;cô ấy bị khó tiêu.;cô ấy ngủ rất say.
-Buổi hòa nhạc đã bán hết vé. Do đó,;nhiều người không thể mua được vé.;mọi người đều có thể mua được vé.
-Cô ấy đã học hành chăm chỉ cho kỳ thi. Do đó,;cô ấy đã làm tốt.;cô ấy đã trượt.
-Thị trấn nhỏ này rất đẹp. Do đó,;mọi người đều mơ ước được ghé thăm nơi này.;mọi người đều tránh nó.
-Anh ấy được biết đến là người ích kỷ. Do đó,;anh ấy không có bạn bè.;anh ấy rất được ưa chuộng.
-Cô ấy ngay lập tức quay lại làm việc sau bữa trưa và;chỉ kết thúc vào lúc 8 giờ tối.;ngủ một giấc dài sau khi ăn trưa xong.
-Tôi đã dọn giường;sau khi tôi thức dậy.;khi tôi đi ngủ.
-Cô ấy đã trở nên nổi tiếng;khi chỉ mới 10 tuổi.;một năm trước khi cô bé chào đời.
-Anh ấy đã rời đi ngày hôm qua và;đã đến vào sáng nay.;đã đến cách đây hai ngày.
-Tôi đã lấy rác ra;khi thùng rác đã đầy.;khi thùng rác đã rỗng.
-Cái giếng đã khô cạn;sau nhiều năm không có mưa.;trong cơn giông bão.
-Tôi đột nhiên ngất xỉu và;phải vài giờ sau mới tỉnh lại.;vẫn tỉnh táo suốt thời gian đó.
-Tôi đã bổ sung hàng tồn kho;trước khi chúng hết.;trước khi tôi đặt hàng.
-Họ đã dành cuối tuần để nghỉ lễ;chỉ quay trở lại vào tuần tiếp theo.;chỉ mới quay lại vào tuần trước đó.
-Những đứa trẻ lên xe buýt cùng một lúc,;một số đứa có vẻ miễn cưỡng hơn những đứa khác.;một số em lên xe trước những đứa khác vài giờ.
-Căn phòng nóng nhưng;họ không cảm thấy khó chịu.;họ lại đổ mồ hôi rất nhiều.
-Anh ấy đã hoàn thành công việc của mình vào buổi sáng nhưng;chỉ về nhà vào buổi chiều.;chỉ hoàn thành vào buổi chiều.
-Nhà hàng rất đông khách nhưng;phục vụ vẫn nhanh chóng.;họ phải đợi hơn một giờ để có bữa ăn.
-Cô ấy bị kẹt xe nhưng;vẫn đến đúng giờ.;đã bỏ lỡ cuộc họp.
-Bộ phim dài nhưng;họ thích thú từng phút của nó.;họ không thể chờ đợi để nó kết thúc.
-Chiếc bánh thì béo ngậy nhưng;họ vẫn đói sau khi ăn xong.;họ lại cảm thấy rất no sau khi ăn xong.
-Họ ghét nhau nhưng;lại giả vờ là bạn thân của nhau.;không hề che giấu sự thù địch giữa họ.
-Ý tưởng của bạn tốt nhưng;không hay bằng ý tưởng của tôi.;không tệ hơn ý tưởng của tôi.
-Những quả táo này đắt tiền nhưng;rất ngon.;rất phải chăng.
-Tôi không thể nhìn thấy anh ấy nhưng;có thể nghe thấy sự kích động trong giọng nói của anh ta.;thấy rõ sự kích động trên khuôn mặt anh ấy.
+Context,Correct,Incorrect
+Bầu trời trong xanh vào sáng nay. Do đó,,sáng nay trời không mưa.,sáng nay trời mưa.
+Giao thông đông đúc suốt buổi sáng. Do đó,,đường xá rất ồn ào.,đường xá rất yên tĩnh.
+Anh ấy quên đặt báo thức cho cô ấy tối qua. Do đó,,cô ấy thức dậy muộn.,cô ấy thức dậy sớm.
+Cả hai đều không có chung ngôn ngữ. Do đó,,họ chỉ có thể giao tiếp bằng cử chỉ.,họ đã có một cuộc trò chuyện rất vui vẻ với nhau.
+Cơn bão đã gây ra lũ lụt trên diện rộng. Do đó,,nhiều con đường không thể đi qua được.,các con đường không bị ngập lụt.
+Cô ấy đã ăn một bữa ăn lớn ngay trước khi đi ngủ đêm qua. Do đó,,cô ấy bị khó tiêu.,cô ấy ngủ rất say.
+Buổi hòa nhạc đã bán hết vé. Do đó,,nhiều người không thể mua được vé.,mọi người đều có thể mua được vé.
+Cô ấy đã học hành chăm chỉ cho kỳ thi. Do đó,,cô ấy đã làm tốt.,cô ấy đã trượt.
+Thị trấn nhỏ này rất đẹp. Do đó,,mọi người đều mơ ước được ghé thăm nơi này.,mọi người đều tránh nó.
+Anh ấy được biết đến là người ích kỷ. Do đó,,anh ấy không có bạn bè.,anh ấy rất được ưa chuộng.
+Cô ấy ngay lập tức quay lại làm việc sau bữa trưa và,chỉ kết thúc vào lúc 8 giờ tối.,ngủ một giấc dài sau khi ăn trưa xong.
+Tôi đã dọn giường,sau khi tôi thức dậy.,khi tôi đi ngủ.
+Cô ấy đã trở nên nổi tiếng,khi chỉ mới 10 tuổi.,một năm trước khi cô bé chào đời.
+Anh ấy đã rời đi ngày hôm qua và,đã đến vào sáng nay.,đã đến cách đây hai ngày.
+Tôi đã lấy rác ra,khi thùng rác đã đầy.,khi thùng rác đã rỗng.
+Cái giếng đã khô cạn,sau nhiều năm không có mưa.,trong cơn giông bão.
+Tôi đột nhiên ngất xỉu và,phải vài giờ sau mới tỉnh lại.,vẫn tỉnh táo suốt thời gian đó.
+Tôi đã bổ sung hàng tồn kho,trước khi chúng hết.,trước khi tôi đặt hàng.
+Họ đã dành cuối tuần để nghỉ lễ,chỉ quay trở lại vào tuần tiếp theo.,chỉ mới quay lại vào tuần trước đó.
+Những đứa trẻ lên xe buýt cùng một lúc,,một số đứa có vẻ miễn cưỡng hơn những đứa khác.,một số em lên xe trước những đứa khác vài giờ.
+Căn phòng nóng nhưng,họ không cảm thấy khó chịu.,họ lại đổ mồ hôi rất nhiều.
+Anh ấy đã hoàn thành công việc của mình vào buổi sáng nhưng,chỉ về nhà vào buổi chiều.,chỉ hoàn thành vào buổi chiều.
+Nhà hàng rất đông khách nhưng,phục vụ vẫn nhanh chóng.,họ phải đợi hơn một giờ để có bữa ăn.
+Cô ấy bị kẹt xe nhưng,vẫn đến đúng giờ.,đã bỏ lỡ cuộc họp.
+Bộ phim dài nhưng,họ thích thú từng phút của nó.,họ không thể chờ đợi để nó kết thúc.
+Chiếc bánh thì béo ngậy nhưng,họ vẫn đói sau khi ăn xong.,họ lại cảm thấy rất no sau khi ăn xong.
+Họ ghét nhau nhưng,lại giả vờ là bạn thân của nhau.,không hề che giấu sự thù địch giữa họ.
+Ý tưởng của bạn tốt nhưng,không hay bằng ý tưởng của tôi.,không tệ hơn ý tưởng của tôi.
+Những quả táo này đắt tiền nhưng,rất ngon.,rất phải chăng.
+Tôi không thể nhìn thấy anh ấy nhưng,có thể nghe thấy sự kích động trong giọng nói của anh ta.,thấy rõ sự kích động trên khuôn mặt anh ấy.
